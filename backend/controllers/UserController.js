@@ -69,6 +69,9 @@ const UserController = {
             });
         }
 
+    },
+    profile(req, res) {
+        res.send(req.user)
     }
 }
 

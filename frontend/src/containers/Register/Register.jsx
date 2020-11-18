@@ -27,6 +27,7 @@ const Register = () => {
 
     return (
         <form className="register" onSubmit={handleSubmit}>
+            <h1>Register</h1>
             <input type="text" name="name" placeholder="Introduce your name" />
             <input type="email" name="email" placeholder="Introduce your email" />
             <input type="password" name="password" placeholder="Introduce your password" />
